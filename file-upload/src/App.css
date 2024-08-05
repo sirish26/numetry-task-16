@@ -1,0 +1,47 @@
+/* src/components/FileUpload.css */
+
+.file-upload-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.file-upload-container input[type="file"] {
+  margin: 20px 0;
+}
+
+.file-upload-container .error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.file-upload-container .file-contents {
+  margin-top: 20px;
+}
+
+.file-upload-container table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #f9f9f9;
+}
+
+.file-upload-container th,
+.file-upload-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.file-upload-container th {
+  background-color: #f2f2f2;
+}
+
+.file-upload-container pre {
+  text-align: left;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap; /* Ensure long lines wrap */
+  word-wrap: break-word;
+}
